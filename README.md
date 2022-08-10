@@ -6,4 +6,7 @@ Virtual Reality has been used in various research projects about treatments and 
 
 Bachelor Thesis Valentin Röcklinger - August 8, 2022
 
-![simulation in action](../../system_view.jpg "Simulation")
+
+## Simulation in action
+
+<img src="system_view.jpg" alt="simulation in action" height="500"/>
