@@ -1,0 +1,522 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Enterprise' Language: 'de' Physical Memory: 32540 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ROECKLINGERV/Documents/Vali/bachelor/unity-projects/unity-projects/curr
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61857
+Successfully changed project path to: C:/Users/ROECKLINGERV/Documents/Vali/bachelor/unity-projects/unity-projects/curr
+C:/Users/ROECKLINGERV/Documents/Vali/bachelor/unity-projects/unity-projects/curr
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 85.61 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 3.37 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ROECKLINGERV/Documents/Vali/bachelor/unity-projects/unity-projects/curr/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro RTX 3000 (ID=0x1f36)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6231
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.003187 seconds.
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.52 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Domain Reload Profiling:
+	ReloadAssembly (523ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (160ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014634 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.35 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\ROECKLINGERV\Documents\Vali\bachelor\unity-projects\unity-projects\testo_22_04_back_bevor_paintin3d\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\ROECKLINGERV\Documents\Vali\bachelor\unity-projects\unity-projects\testo_22_04_back_bevor_paintin3d\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1091ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (893ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.4 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3428.
+Total: 3.342800 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.116500 ms MarkObjects: 2.814400 ms  DeleteObjects: 0.182800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017_Albedo.png
+  artifactKey: Guid(b89ca162433a6c24bb7fe712cf594531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017_Albedo.png using Guid(b89ca162433a6c24bb7fe712cf594531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071c3918b25e20e3b82b8e07f9a85738') in 0.063317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017.png
+  artifactKey: Guid(a035739ff2e34134ea260622d3ac250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017.png using Guid(a035739ff2e34134ea260622d3ac250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed588106b14de3416d43e3b37b47c02') in 0.020430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/InGame/Meshes/Board_Frame_PBR.png
+  artifactKey: Guid(f5828d159a91b7c4fa28ae04d87c28c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/InGame/Meshes/Board_Frame_PBR.png using Guid(f5828d159a91b7c4fa28ae04d87c28c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980f31eeb3aa22b7eed6c255c6f9e3c4') in 0.010206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017_Occlusion.png
+  artifactKey: Guid(570b40e4f480a2a45b263d0ae4fb7f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017_Occlusion.png using Guid(570b40e4f480a2a45b263d0ae4fb7f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51c1f0b50cc2d1f7cdd026c364784f4') in 0.012810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/InEditor/03 Spaceship__MainTex.png
+  artifactKey: Guid(da7136753920b6e4c9634d8c06584782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/InEditor/03 Spaceship__MainTex.png using Guid(da7136753920b6e4c9634d8c06584782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcef3bb02351354a2e88aea8532de10') in 0.009928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/InGame/Meshes/Board_Frame_Albedo.png
+  artifactKey: Guid(49c05516b1b29e346ba1b831429b1d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/InGame/Meshes/Board_Frame_Albedo.png using Guid(49c05516b1b29e346ba1b831429b1d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee2aa21bd55db89dff68ec8a4ffcbd3') in 0.010438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017_Normal.png
+  artifactKey: Guid(6b7960a7b7647ec4a803facc14c949ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017_Normal.png using Guid(6b7960a7b7647ec4a803facc14c949ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c9d7e017fd605855278cb34eff692d') in 0.031546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Knife/Material/Albedo.png
+  artifactKey: Guid(2df292a4233765f4eadbda0546c0c966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knife/Material/Albedo.png using Guid(2df292a4233765f4eadbda0546c0c966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60b7e8bb56930b695495b91b24cb1f6') in 0.015063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017_Metallic.png
+  artifactKey: Guid(0a6e55dfa96b55142885318478fb5cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017_Metallic.png using Guid(0a6e55dfa96b55142885318478fb5cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6ddddc2c05953f722296b684a5d3d5') in 0.012058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.783120 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017_Smoothness.png
+  artifactKey: Guid(ec9a778ec12f68f459692a3d1c5f1555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Brick_Wall_017_Smoothness.png using Guid(ec9a778ec12f68f459692a3d1c5f1555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4270f5fd98efe10605a81f6af4f6aa2a') in 0.014006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.474897 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001.png
+  artifactKey: Guid(2da7ba0397cb92645bea22a72a529394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001.png using Guid(2da7ba0397cb92645bea22a72a529394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f8acc2b706e0331395cad7cf00ee4c') in 0.017589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001_Albedo.png
+  artifactKey: Guid(c06bd154d43513d4b937b9175f3b92ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001_Albedo.png using Guid(c06bd154d43513d4b937b9175f3b92ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35886efa459df03872234fe4ded63ea4') in 0.015916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001_Metallic.png
+  artifactKey: Guid(cbe17191c931b4a42ae2010a2d1f3f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001_Metallic.png using Guid(cbe17191c931b4a42ae2010a2d1f3f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91c591af1c634084249c66f99c8732b') in 0.012091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015224 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001_Normal.png
+  artifactKey: Guid(29658b4f2726cdc4dbe05acfe2f83baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001_Normal.png using Guid(29658b4f2726cdc4dbe05acfe2f83baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41f2269fa8bec9af8b4d6b8879c745c') in 0.011700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001_Occlusion.png
+  artifactKey: Guid(9ead229cb6d520848bcfbfbcbb4a835d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001_Occlusion.png using Guid(9ead229cb6d520848bcfbfbcbb4a835d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce5f1aa48532cc8d9705b319d3b7bee') in 0.011478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle B.png
+  artifactKey: Guid(ec51a77048010f9439b7030c451a6d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle B.png using Guid(ec51a77048010f9439b7030c451a6d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45987c025c6e0c3853976348b59cfdca') in 0.011359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle E.png
+  artifactKey: Guid(53a535d588e0b4c419bba064787040e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle E.png using Guid(53a535d588e0b4c419bba064787040e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b866ed0b3981e6d8cefc1b5390b01d2') in 0.011105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle D.png
+  artifactKey: Guid(03332e2c9d80ace4587c2c308d82832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle D.png using Guid(03332e2c9d80ace4587c2c308d82832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61365be9e31f1dd9101163f8e57b1b15') in 0.010429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle F.png
+  artifactKey: Guid(0dcc914470acfc74599cf026d7fcdc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle F.png using Guid(0dcc914470acfc74599cf026d7fcdc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7924bbba9491267c49a6c171cdbcf6a') in 0.010464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle A.png
+  artifactKey: Guid(5d41353f796af564bb2f1f30234e8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle A.png using Guid(5d41353f796af564bb2f1f30234e8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e404fcd5060a8e95802580b9e6eee7c') in 0.009721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle C.png
+  artifactKey: Guid(4406b83a7b8003b4db5d670f34847374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle C.png using Guid(4406b83a7b8003b4db5d670f34847374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25ef118b10f56624f203431698f08af') in 0.010617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001_Smoothness.png
+  artifactKey: Guid(469134ae212f4c0419ada0110e9748e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Carbon_Fiber_001_Smoothness.png using Guid(469134ae212f4c0419ada0110e9748e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bee302f3445d0a17566d5f72e0a2c9') in 0.011817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267923 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle G.png
+  artifactKey: Guid(e76c486cd6f25a74da98466971c07298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Shapes/Circles/Circle G.png using Guid(e76c486cd6f25a74da98466971c07298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ae6355fd924fa397ffbf4c36cd10b1') in 0.019726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Clipboard/Textures/clipboard2_metal_Normal.png
+  artifactKey: Guid(782ce5b7d9e1d1a44b0ce0f55432e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Textures/clipboard2_metal_Normal.png using Guid(782ce5b7d9e1d1a44b0ce0f55432e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7ef96a77183988de3dc8130cf9b8dd') in 0.013668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Clipboard/Textures/clipboard2_metal_Diffuse.png
+  artifactKey: Guid(259b270792726324d97dbbc623a2b012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Textures/clipboard2_metal_Diffuse.png using Guid(259b270792726324d97dbbc623a2b012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd96457465fea2b59550da5ab2f5da5b') in 0.013767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Clipboard/Textures/clipboard2_board_Diffuse.png
+  artifactKey: Guid(5b78a8cb0b71a2d4ab60377145a47a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Textures/clipboard2_board_Diffuse.png using Guid(5b78a8cb0b71a2d4ab60377145a47a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a7c39681aec3fdda0a0ed6664506a9') in 0.014080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Clipboard/Textures/clipboard2_metal_MetallicSmoothness.png
+  artifactKey: Guid(49b5b49d1384a464c91b0d1a81fcbdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Textures/clipboard2_metal_MetallicSmoothness.png using Guid(49b5b49d1384a464c91b0d1a81fcbdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f981edc34aa097ef0dbf06669144de') in 0.012515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Clipboard/Textures/clipboard2_page_Diffuse.png
+  artifactKey: Guid(9ebb7ab335257f845be4b79ca234aa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Textures/clipboard2_page_Diffuse.png using Guid(9ebb7ab335257f845be4b79ca234aa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb606a0fa6f534a496e9b14832d15a5') in 0.014593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Clipboard/Textures/clipboard2_page_Normal.png
+  artifactKey: Guid(d893b433dde22f24bb235eea4a28d3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Textures/clipboard2_page_Normal.png using Guid(d893b433dde22f24bb235eea4a28d3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed864f98a80b0376c3327fb3e0b1ecb') in 0.016909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Clipboard/Textures/clipboard2_page_Diffuse_adapted.png
+  artifactKey: Guid(e2f9300630db0df4ca0181a91046a6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Textures/clipboard2_page_Diffuse_adapted.png using Guid(e2f9300630db0df4ca0181a91046a6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c7436f8c0b33c04896a9bc159f1e57') in 0.011632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Clipboard/Textures/clipboard2_board_Normal.png
+  artifactKey: Guid(328b77ba193ad024682e7feb5feb10c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Textures/clipboard2_board_Normal.png using Guid(328b77ba193ad024682e7feb5feb10c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f33e7d2ac5c890544472f9553de094') in 0.012564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.535006 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Tools/Decal.png
+  artifactKey: Guid(aac804983e6214041a8df1e9681fbdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Tools/Decal.png using Guid(aac804983e6214041a8df1e9681fbdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5657a8daed0218bbedf84bc2989f6ba') in 0.011492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/decrease_4x4_transparent_bg.png
+  artifactKey: Guid(9e6f50ab948e5ca4eae3eb567af1d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/decrease_4x4_transparent_bg.png using Guid(9e6f50ab948e5ca4eae3eb567af1d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a415f91c315b252120a290acec5b1f') in 0.025736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Tools/Dotted.png
+  artifactKey: Guid(7b28cbc1e8504d74ca8d55fe1cf0c6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Tools/Dotted.png using Guid(7b28cbc1e8504d74ca8d55fe1cf0c6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc4d3703c457641d80b30bcacb1c551') in 0.011274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.675542 seconds.
+  path: Assets/LMRealisticFemaleHands/Textures/SkyBox_01/environment_01.exr
+  artifactKey: Guid(ace79e3ab9fa49f4c8f4628de68c7b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LMRealisticFemaleHands/Textures/SkyBox_01/environment_01.exr using Guid(ace79e3ab9fa49f4c8f4628de68c7b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28c5daf55f3138abe633f2bd0c30fdc') in 0.045777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Erase (Albedo).png
+  artifactKey: Guid(ce13b5e5ee3b5a94d8cb40d23079eef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Erase (Albedo).png using Guid(ce13b5e5ee3b5a94d8cb40d23079eef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c87ebb002366170bf3620567b2be39') in 0.011535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Erase (Normal).png
+  artifactKey: Guid(71c4f0a932d5314428f2ef896d3ed949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Erase (Normal).png using Guid(71c4f0a932d5314428f2ef896d3ed949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda5f13364838094dac7fd61fb27602a') in 0.012628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.226796 seconds.
+  path: Assets/Materials/skin_variants/Forearm_Normal_07.png
+  artifactKey: Guid(528a7675838ca6341bbabbb0dae1570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/skin_variants/Forearm_Normal_07.png using Guid(528a7675838ca6341bbabbb0dae1570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31a316bdbae1dde9077d0107299d54f') in 0.017549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Materials/skin_variants/Forearm_Normal_08.png
+  artifactKey: Guid(1dd11b497f4265048b7691f9d169d02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/skin_variants/Forearm_Normal_08.png using Guid(1dd11b497f4265048b7691f9d169d02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbea578c0aec08307496c709177a6b8a') in 0.018454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447157 seconds.
+  path: Assets/Materials/skin_variants/Forearm_Normal_09.png
+  artifactKey: Guid(2287c28fee57c434bbc94a62a072521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/skin_variants/Forearm_Normal_09.png using Guid(2287c28fee57c434bbc94a62a072521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b90acf076082bd37e8080b2bbfbd690') in 0.014388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/LMRealisticFemaleHands/Textures/Hand_Mat_01/Forearm_Roughness_01.png
+  artifactKey: Guid(2422fc9aec398ed41a9d985146171e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LMRealisticFemaleHands/Textures/Hand_Mat_01/Forearm_Roughness_01.png using Guid(2422fc9aec398ed41a9d985146171e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ec05fd81c60d18a1cb2470142a6b27') in 0.017586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030903 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/InGame/Materials/Glass_Albedo.png
+  artifactKey: Guid(33a0b40c8b7ade748823369af71c40ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/InGame/Materials/Glass_Albedo.png using Guid(33a0b40c8b7ade748823369af71c40ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab78ca2daa42af79c52d49105e1d58c3') in 0.014391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Examples/Textures/Grid.png
+  artifactKey: Guid(026cfa8e99aa0914faa770f5d4c58a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/Shared/Common/Examples/Textures/Grid.png using Guid(026cfa8e99aa0914faa770f5d4c58a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b6230c09ba9220ff22c97cb7976c6b') in 0.011790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.604689 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001.png
+  artifactKey: Guid(e043f8a8bb2e34947977bc4aff9a1c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001.png using Guid(e043f8a8bb2e34947977bc4aff9a1c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef040d166a421592b46912222068478d') in 0.014656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001_Albedo.png
+  artifactKey: Guid(044ca0892f3393d449143e87af4d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001_Albedo.png using Guid(044ca0892f3393d449143e87af4d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1f1ff3cdc09412b3452b6e76544dac') in 0.017930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001_Metallic.png
+  artifactKey: Guid(714c0b52f12cc5d42b6d514ad7db7a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001_Metallic.png using Guid(714c0b52f12cc5d42b6d514ad7db7a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736cd0b49440ce4f770a2cf1c9ef614b') in 0.012838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010856 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001_Normal.png
+  artifactKey: Guid(7203b7fd56f5f1a498fd00e8fc7d9088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001_Normal.png using Guid(7203b7fd56f5f1a498fd00e8fc7d9088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6808db3f78394c3704b6e4fd234aa85b') in 0.012654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001_Occlusion.png
+  artifactKey: Guid(85fd5d425fd19ea4c9a5e971f454aee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001_Occlusion.png using Guid(85fd5d425fd19ea4c9a5e971f454aee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfb506555b29e0d5f1d5880f921a20b') in 0.013037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/icon_v2.png
+  artifactKey: Guid(1d01e056873c56e47978dbb20b09c40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icon_v2.png using Guid(1d01e056873c56e47978dbb20b09c40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d5d3f0d2983367cd1b73822855fe75') in 0.010368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/InEditor/Icon Builder (Tool).png
+  artifactKey: Guid(936e4348d4fd47048acfd46d4c8aa8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/InEditor/Icon Builder (Tool).png using Guid(936e4348d4fd47048acfd46d4c8aa8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5f8b2723fefb3b30af353aaaa651a0') in 0.010298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001_Smoothness.png
+  artifactKey: Guid(55fe94da0bab7e046a2d1d7a92ff1483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Extras/Materials/Full/Ground_Grass_001_Smoothness.png using Guid(55fe94da0bab7e046a2d1d7a92ff1483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21475a503033f674a731c16767459c25') in 0.012392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/InGame/Meshes/HVLP_Normals.png
+  artifactKey: Guid(29ee9369e9939fe49b1c28dac8cb315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/InGame/Meshes/HVLP_Normals.png using Guid(29ee9369e9939fe49b1c28dac8cb315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43b421f91c66984f9b6961d9659e73a') in 0.032433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/increase_4x4_transparent_bg.png
+  artifactKey: Guid(f495d378c4a9a624399fd828314f7f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/increase_4x4_transparent_bg.png using Guid(f495d378c4a9a624399fd828314f7f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28536a47552c5f73072c9af4658c1a1c') in 0.012090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.202467 seconds.
+  path: Assets/Samples/Ultraleap Tracking Preview/5.0.0/Examples/UI Input Examples/ExampleUIScene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(e11c4b8898b0e4a4fb1d1edbe3cfb89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking Preview/5.0.0/Examples/UI Input Examples/ExampleUIScene/Lightmap-1_comp_light.exr using Guid(e11c4b8898b0e4a4fb1d1edbe3cfb89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee038abfcd023518cc8d8ac0f276ea1') in 0.013874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022257 seconds.
+  path: Assets/Samples/Ultraleap Tracking Preview/5.0.0/Examples/UI Input Examples/ExampleUIScene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(42e24af8ef8b0fe46a6cf8e24addc151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking Preview/5.0.0/Examples/UI Input Examples/ExampleUIScene/Lightmap-3_comp_light.exr using Guid(42e24af8ef8b0fe46a6cf8e24addc151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad90fa91ae0ff8e5b3211b041f5faa14') in 0.010972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019745 seconds.
+  path: Assets/Samples/Ultraleap Tracking Preview/5.0.0/Examples/UI Input Examples/ExampleUIScene/Lightmap-5_comp_light.exr
+  artifactKey: Guid(f84d8ca0782a7cc4d8057cd794b806ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking Preview/5.0.0/Examples/UI Input Examples/ExampleUIScene/Lightmap-5_comp_light.exr using Guid(f84d8ca0782a7cc4d8057cd794b806ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaa11cbf6fc242f21de4ccb3545d810') in 0.011390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/InGame/Meshes/Marker_Albedo_Blue.png
+  artifactKey: Guid(8e1b60f59dd23034cbaa47d8b1c6b0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/InGame/Meshes/Marker_Albedo_Blue.png using Guid(8e1b60f59dd23034cbaa47d8b1c6b0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6828acb38f1801e1e5bb1005305a3365') in 0.013624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/InGame/Meshes/Marker_Albedo_Purple.png
+  artifactKey: Guid(1d1a65ba9ec87bc499c58a35fad76c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/InGame/Meshes/Marker_Albedo_Purple.png using Guid(1d1a65ba9ec87bc499c58a35fad76c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572a2ad32235fc6743c1afb86f2a2fc0') in 0.011483 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.71 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3469.
+Total: 3.702200 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.141900 ms MarkObjects: 3.140900 ms  DeleteObjects: 0.179000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
